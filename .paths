@@ -1,0 +1,5 @@
+# Used by sexy-require in app.js
+
+$utils = /utils
+$controller = /controller
+$models = /models

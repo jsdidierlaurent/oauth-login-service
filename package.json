@@ -1,0 +1,45 @@
+{
+  "name": "Faeries-Login-Service",
+  "version": "1.0.0",
+  "description": "NodeJs server to authenticate users",
+  "scripts": {
+    "dev": "nodemon ./bin/www",
+    "start": "cross-env NODE_ENV='production' node ./bin/www",
+    "test": "cross-env NODE_ENV='test' mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/jsdidierlaurent/faeries-login-backend.git"
+  },
+  "author": "Jean-Sébastien Didierlaurent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsdidierlaurent/faeries-login-backend/issues"
+  },
+  "homepage": "https://github.com/jsdidierlaurent/faeries-login-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cross-env": "^5.0.0",
+    "dotenv": "^5.0.0",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^8.2.0",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.11.0",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-github2": "^0.1.11",
+    "passport-google-oauth20": "^1.0.0",
+    "pg": "^7.4.1",
+    "querystring": "^0.2.0",
+    "sequelize": "^4.37.3",
+    "serve-favicon": "^2.4.5",
+    "sexy-require": "^1.1.0",
+    "uuid": "^3.2.1",
+    "winston": "^2.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "git://github.com/chaijs/chai-http.git#master",
+    "mocha": "^5.0.2"
+  }
+}
